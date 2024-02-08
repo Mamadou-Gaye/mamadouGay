@@ -1,0 +1,28 @@
+.panier {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.article span,
+.article button {
+    margin-right: 5px;
+}
+
+.like {
+    color: black;
+}
+
+.like.liked {
+    color: red;
+}
+
+.total {
+    font-weight: bold;
+}
